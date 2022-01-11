@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Modal window</title>
+  </head>
+  <body>
+    <button class="show-modal">Show modal 1</button>
+    <button class="show-modal">Show modal 2</button>
+    <button class="show-modal">Show modal 3</button>
+
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1>What is Proton? 😍</h1>
+      <p>
+        Proton is a new tool released by Valve Software that has been integrated
+        with Steam Play to make playing Windows games on Linux as simple as
+        hitting the Play button within Steam. Underneath the hood, Proton
+        comprises other popular tools like Wine, DXVK and Vulkan among others
+        that a gamer would otherwise have to install and maintain themselves.
+        This greatly eases the burden for users to switch to Linux without
+        having to learn the underlying systems or losing access to a large part
+        of their library of games. Proton is still in its infancy so support is
+        inconsistent, but regularly improving.
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
